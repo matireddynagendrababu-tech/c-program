@@ -1,0 +1,11 @@
+#iclude<stdio.h>
+int main()
+{
+	int a,b,c,d;
+	float e;
+	printf("enter the four numbers");
+	scanf("%d%d%d%d",&a,&b,&c,&d);
+	e=a/b*c-b+a*d/3;
+	printf("the value of expresion is %f,e );
+	return 0;
+}
